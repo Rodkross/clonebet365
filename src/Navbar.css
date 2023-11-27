@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2? family= Blinker:wght@100;200;300;400;600;700;800;900 & family= Roboto:ital,wght@ 0.300;1.300 & display=swap');
+
+* {
+  font-family: 'Blinker', sans-serif;
+}
+
+ 
+  /*CSS da Navbar parte link */
+
+.liItem {
+  width: 100%;
+  background-color: #333333;
+  display: flex;
+  justify-content: space-between;
+  padding: .9em 0 .9em 0;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+span {
+  color: #ffffff;
+}
+
+
+
+li {
+  color: #9c9c9c;
+  text-decoration: none;
+  list-style: none;
+  font-size: 11.3px;
+  margin: 0 1em 0 1em;
+  cursor: pointer;
+}
+
+div.liItem li:hover{
+  color: #ffffff;
+}
+
+div.linkItem a:hover{
+  color: #ffffff;
+}
+
+div.linkItem a {
+  color: #9c9c9c;
+  text-decoration: none;
+  font-size: 12px;
+  margin: 0 1em 0 1em;
+  cursor: pointer;
+}
+
+ 
+  /*CSS da Navbar parte login */
+
+.login {
+  width: 100%;
+  height: 4em;
+  background-color: #337761;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.contentLogo {
+  display: inline;
+}
+
+img {
+  width: 7em;
+  margin-left: 1em;
+  
+}
+
+div.login li {
+  font-size: 14px;
+  font-weight: 100;
+  margin-right: 2em;
+}
+
+.contentLinkLive{
+  display: flex;
+  color: #9c9c9c;
+  text-decoration: none;
+  list-style: none;
+  font-size: 13px;
+  margin: 0 1em 0 1em;
+  cursor: pointer;
+  align-items: center;
+}
+
+div.contentLinkEsporte{
+  height: 60px;
+  display: flex;
+ align-items: center;
+  
+}
+
+.contentLinkEsporte:hover{
+  border-bottom: #ffdf1b 2px solid;
+}
+
+.linkLive{
+  color: #e4e4e4;
+  margin-left: 3em;
+}
+
+.linkLive:hover{
+  color: #26ffbe;
+}
+
+.contentButton{
+  display: flex;
+}
+
+
+.btnLupa{
+  background-color: #337761;
+  border: none;
+  color: #ffffff;
+  font-size: 1.3em;
+  margin-right: 1em;
+}
+
+.btnLupa:hover{
+  color: #26ffbe;
+  cursor: pointer;
+}
+
+.btnRegister {
+  background-color: #ffdf1b;
+  border: none;
+  color: #333333;
+  padding: .3em .8em;
+  border-radius: .3em;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.btnRegister:hover{
+  background-color: #e4e4e4;
+  border: none;
+}
+
+.btnLogin{
+  background-color: #337761;
+  color: #ffffff;
+  border: none;
+  font-size: 13px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+
+.btnLogin:hover{
+  color: #26ffbe;
+}
