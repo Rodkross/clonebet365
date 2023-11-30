@@ -1,0 +1,70 @@
+#conteudo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+    
+}
+
+.barraLateral{
+    width: 17em;
+    height: 100vh;
+    background-color: #1f1f1f;
+    overflow-y: scroll;
+   
+}
+
+.barraLateral::-webkit-scrollbar{
+    width: 13px;
+}
+
+.barraLateral::-webkit-scrollbar-track{
+    background: #1f1f1f;
+    border: #151515 solid 1px;
+}
+
+.barraLateral::-webkit-scrollbar-thumb{
+    background-color: #4c4c4c;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #1f1f1f;  /* creates padding around scroll thumb */
+}
+
+.conteudoItens{
+    width: 80%;
+    height: 100vh;
+    background-color: #444;
+
+}
+
+.separadores{
+    margin: 2em 0 0 1em;
+}
+
+.abaSeparadores{
+    color: #00DEA9;
+    font-size: 11px;
+}
+
+.separadoresLista{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.2em;
+    
+}
+
+.separadoresItem{
+    font-size: 13px; 
+    margin-top: 1.5em;
+}
+
+.logoli{
+    width: 1.2em;
+    margin-left: -1em;
+    margin-right: 1em;
+    
+
+}
+
+p{
+    color: #4c4c4c;
+}

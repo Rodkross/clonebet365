@@ -1,5 +1,7 @@
 import { IoSearchOutline } from 'react-icons/io5';
 import './Navbar.css';
+import Conteudo from './Conteudo';
+
 
 export default function Navbar() {
   return (
@@ -47,6 +49,11 @@ export default function Navbar() {
           <button className="btnLogin">Login</button>
         </div>
       </div>
+
+      <Conteudo />
     </div>
+    
+
+   
   );
 }
