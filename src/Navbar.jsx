@@ -1,7 +1,7 @@
 import { IoSearchOutline } from 'react-icons/io5';
 import './Navbar.css';
 import Conteudo from './Conteudo';
-
+import Principal from './Principal';
 
 export default function Navbar() {
   return (
@@ -32,8 +32,8 @@ export default function Navbar() {
           <img src="src\assets\bet.png" alt="" />
         </div>
 
-        <div className='contentLinkLive'>
-          <div className='contentLinkEsporte'>
+        <div className="contentLinkLive">
+          <div className="contentLinkEsporte">
             <span>Esportes</span>
           </div>
           <div>
@@ -50,10 +50,10 @@ export default function Navbar() {
         </div>
       </div>
 
-      <Conteudo />
+      <div className='areaContent'>
+        <Conteudo />
+        <Principal />
+      </div>
     </div>
-    
-
-   
   );
 }
