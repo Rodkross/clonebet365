@@ -50,13 +50,13 @@ export default function Conteudo() {
                         <li className="separadoresItem"><img className='logoli' src="src\assets\dardos.svg" alt="Logo Dardos" />Dardos</li>
                     </ul>
 
+                    <div className='secao'>
+                        <p>Especiais</p><img className="imageSecao" src='src\assets\svgexport-1.svg' alt=''/>
+                    </div>
+
                 </div>
             </aside>
-            <main className="conteudoItens">
-
-            </main>
         </div>
     );
 }
 
-<div style="background-image:url(/home/images/Home/imgs/LeagueLogo/brazilseriea.svg)" class="cis-PopularIconSmall "></div>
